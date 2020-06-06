@@ -1,0 +1,31 @@
+.container {
+    padding: 15px;
+}
+
+#class_id_error {
+    color:red;
+    font-size:80%;
+}
+
+#class_id:valid {
+	color:black;
+}
+#class_id:invalid {
+	background:yellow;
+}
+
+.files input {
+    outline: 2px dashed #555555;
+    outline-offset: -10px;
+    -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    padding: 60px 0px 85px 35%;
+    text-align: center !important;
+    margin: 0;
+    width: 100% !important;
+}
+.files input:focus{     outline: 2px dashed #555555;  outline-offset: -10px;
+    -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    transition: outline-offset .15s ease-in-out, background-color .15s linear; border:1px solid #92b0b3;
+ }
+.files{ position:relative}
