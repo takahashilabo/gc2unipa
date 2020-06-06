@@ -10,11 +10,6 @@
     <body>
         <div class="container">
 
-        <div style="font-size:80%;color:red;">2020/5/20にGoogle Chromeがアップデート（バージョン83）された影響で、本ツールでCSVファイルをダウンロードする機能が使えません。
-        5/30に調査したところGoogleが対応しないかぎり回避する手段は見つかっていないようです。
-        恐らく、近日、Googleが対応するものと思いますが、それまではFirefoxまたはSafariをお使いください。
-        </div>
-
         <div class="form-group">
             <label for="class_id">授業コード：</label>
             <input type="text" pattern="[0-9A-Z]{10}" id="class_id" class="form-control" autocomplete="off" list="class_ids" required>
@@ -48,7 +43,6 @@
         </div>
 
         <script src="gc2unipa.js"></script>
-        <?!= HtmlService.createHtmlOutputFromFile('js').getContent(); ?>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
